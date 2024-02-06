@@ -10,8 +10,9 @@ import (
 var numero int
 var err error
 var mensaje string
+var result string
 
-func Calculadora() {
+func Calculadora() string {
 
 	scanner := bufio.NewScanner(os.Stdin)
 
@@ -30,6 +31,8 @@ func Calculadora() {
 	}
 	var i int
 	for i = 1; i <= 10; i++ {
-		fmt.Println(i, "x", numero, "=", i*numero)
+		result += fmt.Sprintf(" %d x %d = %d \n", i, numero, i*numero)
 	}
+
+	return result
 }

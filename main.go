@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"src/github.com/faridEmilio/go-proyects/ejercicios"
+	"src/github.com/faridEmilio/go-proyects/ejercicios/files"
 )
 
 func main() {
@@ -14,10 +13,16 @@ func main() {
 	numero, mensaje := ejercicios.Convertidor("400")
 	fmt.Println(numero)
 	fmt.Println(mensaje)
-	*/
 
-	//teclado.IngresoNumeros()
+
+	teclado.IngresoNumeros()
 
 	fmt.Println("Calculadora")
 	ejercicios.Calculadora()
+	*/
+	//files.GrabaTabla()
+
+	//files.ConcatenaTabla()
+
+	files.LeoArchivo()
 }
