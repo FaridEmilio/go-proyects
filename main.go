@@ -1,7 +1,7 @@
 package main
 
 import (
-	"src/github.com/faridEmilio/go-proyects/ejercicios/files"
+	"src/github.com/faridEmilio/go-proyects/funciones"
 )
 
 func main() {
@@ -24,5 +24,12 @@ func main() {
 
 	//files.ConcatenaTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	//funciones.Calculos()
+
+	//funciones.LlamarClosure()
+
+	funciones.Exponencia(4)
+
 }
