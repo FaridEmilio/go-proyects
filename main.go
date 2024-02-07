@@ -1,7 +1,7 @@
 package main
 
 import (
-	"src/github.com/faridEmilio/go-proyects/funciones"
+	"src/github.com/faridEmilio/go-proyects/mapas"
 )
 
 func main() {
@@ -30,6 +30,10 @@ func main() {
 
 	//funciones.LlamarClosure()
 
-	funciones.Exponencia(4)
+	//funciones.Exponencia(4)
 
+	//arreglos_slices.MuestroArreglos()
+
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
