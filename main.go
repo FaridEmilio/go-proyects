@@ -1,7 +1,8 @@
 package main
 
 import (
-	"src/github.com/faridEmilio/go-proyects/mapas"
+	ejerinterfaces "src/github.com/faridEmilio/go-proyects/ejer_interfaces"
+	"src/github.com/faridEmilio/go-proyects/modelos"
 )
 
 func main() {
@@ -35,5 +36,13 @@ func main() {
 	//arreglos_slices.MuestroArreglos()
 
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+
+	usuario := new(modelos.Hombre)
+	maria := new(modelos.Mujer)
+
+	ejerinterfaces.HumanosRespirando(usuario)
+
+	ejerinterfaces.HumanosRespirando(maria)
+
 }
