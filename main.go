@@ -1,9 +1,6 @@
 package main
 
-import (
-	ejerinterfaces "src/github.com/faridEmilio/go-proyects/ejer_interfaces"
-	"src/github.com/faridEmilio/go-proyects/modelos"
-)
+import "src/github.com/faridEmilio/go-proyects/middleware"
 
 func main() {
 	/*variables.MuestroEnteros()
@@ -37,12 +34,24 @@ func main() {
 
 	//arreglos_slices.Capacidad()
 	//mapas.MostrarMapas()
+	/*
+				usuario := new(modelos.Hombre)
+				maria := new(modelos.Mujer)
 
-	usuario := new(modelos.Hombre)
-	maria := new(modelos.Mujer)
+				ejerinterfaces.HumanosRespirando(usuario)
 
-	ejerinterfaces.HumanosRespirando(usuario)
+				ejerinterfaces.HumanosRespirando(maria)
 
-	ejerinterfaces.HumanosRespirando(maria)
 
+			canal1 := make(chan bool)
+			go goroutine.MiNombreLentoo("Emilio Barrios", canal1)
+
+			//Esto es parecido a un await
+			<-canal1
+
+
+		webserver.MiWebServer()
+	*/
+
+	middleware.MiMiddleware()
 }
